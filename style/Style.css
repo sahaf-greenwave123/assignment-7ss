@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+ul>li {
+    list-style: none;
+}
+
+
+.greenwaveup{
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff9ea;
+    height: 108px;
+}
+
+.list-item {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.first-btn {
+    height: 38px;
+    width: 120px;
+    background-color: #ffcb45;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+/* hero style */
+.hero-container {
+    background-image: url(../Images/shapes.png);
+    height: 90vh;
+    background-size: cover;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-cnt {
+    display: flex;
+    align-items: center;
+}
+
+.hero-heading {
+    font-size: 60px;
+    margin-bottom: 21px;
+}
+
+/* about section */
+.about-container {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+.popular-menu {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.chotto {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 15px;
+}
+.popular-content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+
+/* review section */   
+
+.Review-container{
+    display: flex;
+}
+
+
+.image-container {
+    margin-left: 160px;
+}
+.Review{
+    margin-top: 20px;
+} 
+
+.Reviewcard{
+margin-top: 32px;
+display: flex;
+gap: 20px;
+}
+
+
+/* Discount style*/ 
+
+.discount-container{
+background-image: url(../Images/join\ unsplash_2lWGQ02DGL8.png);
+background-size: contain;
+height: 330px;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* footer section*/ 
+
+
+
+
+
+.footer {
+   background-image: url(../Images/footer\ bg-image.png);
+    padding: 30px 0;
+    margin-top: 80px;
+    height: 400px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    color: #333;
+}
+
+.logo-icon {
+    font-size: 24px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer-section p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #333;
+}
+
+.get-in-touch a {
+    color: #666;
+    text-decoration: none;
+}
+
+.get-in-touch a:hover {
+    color: #333;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #EDE7D1;
+    margin-top: 80px;
+}
+
+.footer-bottom p {
+    color: #666;
+    font-size: 14px;
+}
+
+.socila-linksone{
+   font-size: 30px;
+    
+}
